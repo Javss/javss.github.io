@@ -1,0 +1,198 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    height: 100vh;
+    /*border: 2px solid black;*/
+    font-size: 5vh;
+
+}
+
+.clearfix:after,
+.clearfix:before{
+    display: table;
+    content: '';
+}
+.clearfix:after{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+/*.entry div{*/
+    /*border: 1px solid black;*/
+/*}*/
+li{
+    width: 50%;
+
+}
+.searchDiv .search {
+    /*width: 100%;*/
+    display: flex;
+    overflow: hidden;
+    padding: 3px;
+    border: #69c 1px solid;
+    color: #006e80;
+    border-radius:8px;
+}
+
+.search input {
+    /*width: 100%;*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #006e80;
+}
+
+.toTrash{
+    position: fixed;
+    top:87%;
+    right: 2%;
+    font-size: 160%;
+    cursor: pointer;
+    display: none;
+}
+
+.quickadd{
+    position: fixed;
+    top:88%;
+    right: 2%;
+    font-size: 141%;
+    cursor: pointer;
+}
+
+
+.quickaddForm {
+    width: 100%;
+    height:auto;
+    /*background:#e9ecef;*/
+    overflow:hidden;
+    display:none;
+    font-weight:bold;
+    font-size: 171%;
+
+}
+
+
+.quickaddFormButton{
+    display: inline-block;
+    background-color: #006e80;
+    width: 100%;
+    text-align: center;
+
+}
+
+.textFormButton{
+    display: inherit;
+    text-align: center;
+    padding-top: 31px;
+}
+#Add,#Cancel {
+    padding:20px;
+    margin:10px;
+    border:1px solid rgb(240,240,240);
+    font-weight:bold;
+    border-radius:8px;
+    cursor: pointer;
+}
+#Cancel{
+    float:left;
+    background-color: #006e80;
+    color: #e9ecef;
+}
+#Add{
+
+    float:right;
+    color: #006e80;
+}
+input {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #006e80;
+}
+#searchInput{
+    width: 100%;
+}
+li{
+    padding-bottom: 5px;
+}
+
+.entry {
+    background:rgb(230,230,230);
+    width:100%;
+    height:auto;
+    margin-bottom:5px;
+    margin-top: 10px;
+}
+.entry div:hover{
+    background-color: white;
+    border-left:5px solid #006e80;
+}
+
+.entry .name {
+    width:100%;
+    float:left;
+    cursor: pointer;
+    border-bottom: 2px solid grey;
+}
+
+
+.entry p {
+    margin:0;
+    text-shadow:0 0 1px rgba(0,0,0,0.4);
+    color: #006e80;
+}
+
+.entry .del .edit a {
+    font-family:sans-serif;
+    color:#FFF;
+    font-size:12px;
+    padding:5px;
+    background:rgb(255,100,100);
+    border-radius:8px;
+    text-decoration:none;
+}
+#phone #email{
+    width: 50%;
+    float: left;
+}
+#addPhoneBtn, #addEmailBtn, .plus{
+    cursor: pointer;
+}
+/*::-webkit-input-placeholder {color:#bfbfff;*/
+
+    /*text-indent: 0;*/
+    /*transition: text-indent 0.3s ease;}*/
+/*::-moz-placeholder          {color:#bfbfff;*/
+
+    /*text-indent: 0;*/
+    /*transition: text-indent 0.3s ease;}!* Firefox 19+ *!*/
+/*:-moz-placeholder           {color:#bfbfff;*/
+
+    /*text-indent: 0;*/
+    /*transition: text-indent 0.3s ease;}!* Firefox 18- *!*/
+/*:-ms-input-placeholder      {color:#bfbfff;*/
+
+    /*text-indent: 0;*/
+    /*transition: text-indent 0.3s ease;}*/
+:focus::-webkit-input-placeholder {text-indent: 100%; transition: text-indent 0.7s ease;}
+:focus::-moz-placeholder          {text-indent: 100%; transition: text-indent 0.7s ease;}
+:focus:-moz-placeholder           {text-indent: 100%; transition: text-indent 0.7s ease;}
+:focus:-ms-input-placeholder      {text-indent: 100%; transition: text-indent 0.7s ease;}
+
+
+.number-new, .email-new{
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+/*p{*/
+    /*background:#b30000;*/
+/*}*/
+.fa .fa-minus{
+    margin-left: 50px;
+}

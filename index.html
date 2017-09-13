@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Phonebook</title>
+</head>
+<body>
+
+
+<header>
+    <div class="searchDiv">
+        <div class="search">
+            <label for="searchInput" id="searchLabel"><i class="fa fa-search" aria-hidden="true"></i></label>
+            <input type="search" name="search" id="searchInput" placeholder="" />
+        </div>
+    </div>
+
+</header>
+
+
+<div class="quickaddForm">
+        <div class="quickaddFormButton">
+            <button id="Cancel">Cancel</button>
+            <div class="textFormButton">Save in Phonebook</div>
+            <button id="Add">Ok</button>
+        </div>
+        <input type="text" id="name" class="formFields" placeholder="Name" autofocus>
+
+        <input type="text" id="lastname" class="formFields" placeholder="Last Name">
+        <!--<input type="tel" id="phone" class="formFields" placeholder="Phone">-->
+
+        <div id="numbers-block">
+            <input type="tel" id="phone" class="number-new" placeholder="Phone">
+            <span class = "plus" id="plus-number"><i class="fa fa-plus" aria-hidden="true"></i></span>
+        </div>
+
+
+        <div id="emails-block">
+            <input type="email" id="email" class="email-new" placeholder="Email">
+            <span class = "plus" id="plus-email"><i class="fa fa-plus" aria-hidden="true"></i></span>
+        </div>
+
+
+        <!--<div class="addPhone">-->
+            <!--<i id="addPhoneBtn" class="fa fa-plus-square" aria-hidden="true"></i>-->
+        <!--</div>-->
+    <!--<input type="email" id="email" class="formFields" placeholder="Email">-->
+        <!--<div class="addEmail" >-->
+            <!--<i id="addEmailBtn" class="fa fa-plus-square" aria-hidden="true"></i>-->
+        <!--</div>-->
+
+        <!--<ul>-->
+            <!--<li><input type="text" id="name" class="formFields" placeholder="Name"> </li>-->
+            <!--<div class="addPhoneDiv"><a href="#" class="addPhoneDiv" data-id="' + n + '">Delete</a></div>-->
+            <!--<li><input type="text" id="lastname" class="formFields" placeholder="Last Name"></li>-->
+            <!--<li><input type="text" id="phone" class="formFields" placeholder="Phone"></li>-->
+            <!--<li><input type="text" id="email" class="formFields" placeholder="Email"></li>-->
+        <!--</ul>-->
+</div>
+
+<div class="addbook">
+
+</div>
+
+<footer>
+<div class="toTrash" >
+        <i id="delBtn" class="fa fa-trash" aria-hidden="true"></i>
+</div>
+<div class="quickadd" >
+    <i id="quickAddBtn" class="fa fa-plus-square" aria-hidden="true"></i>
+</div>
+
+
+
+
+</footer>
+<script src="js/maintest.js"></script>
+</body>
+</html>
